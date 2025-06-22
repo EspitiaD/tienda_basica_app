@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ingresar Cantidad</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 50px;
+        }
+        input, button {
+            font-size: 18px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>¿Cuánto recibiste de {{ producto }}?</h1>
+
+    <form method="POST" action="{{ url_for('registrar') }}">
+        <input type="number" name="cantidad" step="any" required>
+        <br>
+        <button type="submit">Confirmar</button>
+    </form>
+</body>
+</html>
