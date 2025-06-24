@@ -53,3 +53,9 @@ http://localhost:5000
 
 📌 Autor
 Creado por EspitiaD como proyecto piloto para clientes interesados en apps simples y funcionales que luego pueden escalarse.
+
+## 🖼 Vista previa
+
+![Vista de la app](https://raw.githubusercontent.com/EspitiaD/tienda_basica_app/main/vista_tienda_app.png)
+
+[🔗 Ver código en GitHub](https://github.com/EspitiaD/tienda_basica_app)
